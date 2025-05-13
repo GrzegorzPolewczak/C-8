@@ -1,0 +1,20 @@
+﻿<Window x:Class="KolZadaniA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KolZadaniA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lbxKomis" HorizontalAlignment="Left" Height="367" Margin="350,40,0,0" VerticalAlignment="Top" Width="424" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Label x:Name="lbSumaPrzebiegow" Content="Suma przebiegow" HorizontalAlignment="Left" Height="42" Margin="26,365,0,0" VerticalAlignment="Top" Width="302"/>
+        <Button x:Name="btnUsun" Content="USUN" HorizontalAlignment="Left" Height="45" Margin="177,303,0,0" VerticalAlignment="Top" Width="151" Click="btnUsun_Click"/>
+        <Button x:Name="btnDodaj" Content="DODAJ" HorizontalAlignment="Left" Height="45" Margin="10,303,0,0" VerticalAlignment="Top" Width="145" Click="btnDodaj_Click"/>
+        <TextBox x:Name="txtMarka" HorizontalAlignment="Left" Height="29" Margin="26,40,0,0" TextWrapping="Wrap" Text="Marka" VerticalAlignment="Top" Width="226"/>
+        <TextBox x:Name="txtModel" HorizontalAlignment="Left" Height="36" Margin="26,86,0,0" TextWrapping="Wrap" Text="Model" VerticalAlignment="Top" Width="226"/>
+        <TextBox x:Name="txtRokProdukcji" HorizontalAlignment="Left" Height="30" Margin="26,127,0,0" TextWrapping="Wrap" Text="RokProdukcji" VerticalAlignment="Top" Width="226"/>
+        <TextBox x:Name="txtPrzebieg" HorizontalAlignment="Left" Height="39" Margin="26,162,0,0" TextWrapping="Wrap" Text="Przebieg" VerticalAlignment="Top" Width="226"/>
+
+    </Grid>
+</Window>
