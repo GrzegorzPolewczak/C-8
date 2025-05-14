@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab9ZadanieA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab9ZadanieA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lbxLista" HorizontalAlignment="Left" Height="313" Margin="10,10,0,0" VerticalAlignment="Top" Width="376" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="btnWyswietl" Content="Wyswietl" HorizontalAlignment="Left" Margin="441,100,0,0" VerticalAlignment="Top" Height="73" Width="149" Click="btnWyswietl_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="107" Margin="482,241,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="238"/>
+        <Button x:Name="btnKliknij2" Content="Button" HorizontalAlignment="Left" Height="51" Margin="654,33,0,0" VerticalAlignment="Top" Width="87" Click="btnKliknij2_Click"/>
+        <Button x:Name="btnStudent" Content="btnStud" HorizontalAlignment="Left" Height="44" Margin="172,348,0,0" VerticalAlignment="Top" Width="187" Click="btnStudent_Click"/>
+        <Button x:Name="btnGarbage" Content="odczysc" HorizontalAlignment="Left" Height="22" Margin="441,370,0,0" VerticalAlignment="Top" Width="192" Click="btnGarbage_Click"/>
+
+    </Grid>
+</Window>
